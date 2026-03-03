@@ -1,0 +1,17 @@
+/* Fist trying to study the logic before the beauty of the code */
+
+label {
+    border: 2px solid rgb(0, 0, 0);
+    width: 100px;
+    height: 50px;
+    margin: 2px;
+
+}
+
+
+button {
+    border: 2px solid rgb(0, 0, 0);
+    width: 100px;
+    height: 50px;
+    margin: 2px;
+  }
