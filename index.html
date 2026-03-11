@@ -6,33 +6,28 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-
-    <label id="numberResult"></label>
-    <div> </div>
-    <button onclick="sum()">Plus +</button>
-    <button onclick="minus()">Minus -</button>
-    <button onclick="multiply()">Multiply *</button>
-    <button onclick="divided()">Divided /</button>
-    <button class="numeros" id="equal" onclick="clearResult()">C</button>
-    <button class="numeros" id="equal" onclick="clearResultAll()">CA</button>
-    <div> </div>
-    <button class="numeros" id="number1" value="1" onclick="addNumberToBeCalcuted1()">1</button>
-    <button class="numeros" id="number2" value="2" onclick="addNumberToBeCalcuted2()">2</button>
-    <button class="numeros" id="number3" value="3" onclick="addNumberToBeCalcuted3()">3</button>
-    <div> </div>
-    <button class="numeros" id="number4" value="4" onclick="addNumberToBeCalcuted4()">4</button>
-    <button class="numeros" id="number5" value="5" onclick="addNumberToBeCalcuted5()">5</button>
-    <button class="numeros" id="number6" value="6" onclick="addNumberToBeCalcuted6()">6</button>
-    <div> </div>
-    <button class="numeros" id="number7" value="7" onclick="addNumberToBeCalcuted7()">7</button>
-    <button class="numeros" id="number8" value="8" onclick="addNumberToBeCalcuted8()">8</button>
-    <button class="numeros" id="number9" value="9" onclick="addNumberToBeCalcuted9()">9</button>
-    <div> </div>
-    <button class="numeros" id="number." value="." >.</button>
-    <button class="numeros" id="number0" value="0" onclick="addNumberToBeCalcuted0()">0</button>
-    <button class="numeros" id="equal" onclick="displayResult()">=</button>
-
-  
+    <div class='container'>
+    <label id="numberResult" class="span-four"></label>
+    <button onclick="sum()">+</button>
+    <button onclick="minus()">-</button>
+    <button onclick="multiply()">*</button>
+    <button onclick="divided()">/</button>
+    <button  id="number1" value="1" onclick="addNumberToBeCalcuted1()">1</button>
+    <button  id="number2" value="2" onclick="addNumberToBeCalcuted2()">2</button>
+    <button  id="number3" value="3" onclick="addNumberToBeCalcuted3()">3</button>
+    <button onclick="eraseLast()">Erase</button>
+    <button  id="number4" value="4" onclick="addNumberToBeCalcuted4()">4</button>
+    <button  id="number5" value="5" onclick="addNumberToBeCalcuted5()">5</button>
+    <button  id="number6" value="6" onclick="addNumberToBeCalcuted6()">6</button>
+    <button onclick="clearResultAll()">CA</button>
+    <button  id="number7" value="7" onclick="addNumberToBeCalcuted7()">7</button>
+    <button  id="number8" value="8" onclick="addNumberToBeCalcuted8()">8</button>
+    <button  id="number9" value="9" onclick="addNumberToBeCalcuted9()">9</button>
+    <button  id="%" value="%" onclick="percentage()">%</button>
+    <button  id="number." value="." >.</button>
+    <button  id="number0" value="0" onclick="addNumberToBeCalcuted0()">0</button>
+    <button  id="equal" class="span-two" onclick="displayResult()">=</button>
+    </div>
     <script src="script.js"></script>
   </body>
 </html>
